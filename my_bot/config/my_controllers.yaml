@@ -1,0 +1,20 @@
+controller_manager: 
+  ros_parameters:
+  update_rate: 30
+  use_sim_time: true
+
+  diff_cont: 
+    type: diff_drive_controller/DiffDriveController 
+
+  joint_broad: 
+    type: joint_state_broadcaster/JointStateBroadCaster
+
+  diff cont:
+    ros_parameters: 
+      left_wheel: left_wheel_joint
+      right_wheel: right_wheel_joint
+      wheel_separation: 0.35
+      wheel_radius: 0.0325
+      use_stamped_vel: false
+
+      
