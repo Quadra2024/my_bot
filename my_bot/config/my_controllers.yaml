@@ -11,6 +11,7 @@ controller_manager:
 
   diff cont:
     ros_parameters: 
+      publish_rate: 50.0
       left_wheel: left_wheel_joint
       right_wheel: right_wheel_joint
       wheel_separation: 0.35
